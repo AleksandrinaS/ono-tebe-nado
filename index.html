@@ -11,10 +11,11 @@
 </head>
 <body>
   <header class="header">
-    <nav class="header__menu">
+    <div class="header__size">
+     <nav class="header__menu">
       <ul class="header__links-list">
         <li class="header__links-list-item header__links-list-item_no-bullit">
-          <a href="#0">главная</a>
+          <a class="header__links-list-item_no-bullit" href="#0">главная</a>
         </li>
         <li class="header__links-list-item">
          <a href="#0">посмотреть лоты</a>
@@ -23,21 +24,22 @@
           <a href="#0">об аукционе</a>
         </li>
       </ul>
-    </nav>
-    <a href="#0" class="header__logo">
+     </nav>
+     <a href="#0" class="header__logo">
       <img src="./images/logo-black.svg" 
       alt="Логотип сайта"
       class="header__logo-image">
-    </a>
-    <div class="address">
-    <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
-    <a href="info@sobaka.ge"><br>info@sobaka.ge</a>
-    <address>наб. Принсенграхт 263- <br>265, Амстердам</address>
-    </div>
+     </a>
+     <div class="address">
+      <a class="address-list" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <a class="address-list" href="info@sobaka.ge"><br>info@sobaka.ge</a>
+     <address class="address-list address-no-line">наб. Принсенграхт 263- <br>265, Амстердам</address>
+     </div>
+   </div>
   </header>
 <main>
   <cover class="cover">
-    <img src="./images/cover.jpg" alt="Фон с цветами" class="cover-image">
+    <img src="./images/cover.jpg" alt="Фон с цветами">
     <h1 class="cover__title letter-spacing-extended">
       <span class="aligned-text">оно</span>
       <span class="aligned-text aligned-text_center">тебе</span>

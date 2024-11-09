@@ -6,8 +6,8 @@ body {
 
 .header {
     margin: 92px 24px 96px 24px;
-    width: 1050;
-    height: 105;
+    width: 1050px;
+    height: 105px;
 }
 
 .header__size {
@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style: circle;
-    gap: 30px;
+    gap: 32px;
     letter-spacing: 0.2px;
     padding-top: 4px;
 }
@@ -32,7 +32,7 @@ body {
     text-underline-position: under;
 }
 .header__links-list-item_no-bullit {
-    letter-spacing: 0px;
+    
     list-style: none;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ body {
     grid-column: 3/4;
     justify-self: end;
     line-height: 25px;
-    padding-right: 60px;
+    padding-right: 58px;
     padding-top: 5px;
     letter-spacing: 0.1px;
 }
@@ -70,34 +70,64 @@ body {
 }
 
 .cover {
+    position: relative;
     width: 1100px;
     height: 757px;
     background-image: url("/images/cover.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
 }
 
 .cover__title {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    margin: 165px 50px 237px 50px;
     color: white;
     width: 1000px;
     height: 355px;
-    font-weight: 700;
     font-size: 100px;
-    line-height: 120%;
+    line-height: 123%;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
 
-.aligned-text {
-    margin: 165px 50px 237px 50px;
-}
-
-.aligned-text_left {
-    
-}
-
 .aligned-text_center {
-    
+    display: block;
+    text-align: center;
 }
+
 .letter_space {
-    
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.aligned-text_right {
+    display: block;
+    text-align: end;
+}
+
+.letter_space-end {
+    padding-left: 30px;
+    margin-right: -.3em;
+}
+
+.overlay {
+    background-color: black;
+    width: 1100px;
+    height: 757px;
+    opacity: 60%;
+}
+
+.cover__description {
+    position: absolute;
+    z-index: 1;
+    inset: 667px 385px 62px 78px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.1em;
 }

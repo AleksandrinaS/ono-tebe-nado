@@ -124,10 +124,15 @@ body {
     position: absolute;
     z-index: 1;
     inset: 667px 385px 62px 78px;
+}
+
+.cover__description-text {
     font-weight: 400;
     font-size: 22px;
     line-height: 127%;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 1.1em;
+    letter-spacing: 0.4;
+    word-spacing: 19px;
+    white-space: nowrap;
 }

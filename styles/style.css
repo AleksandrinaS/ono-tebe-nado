@@ -166,11 +166,11 @@ body {
 
 .lots__card-list {
     display: flex;
-    justify-content: space-between;
     display: grid;
     grid-template-columns: 334px 334px 334px;
     grid-template-rows: 563px;
     row-gap: 30px;
+    justify-content: space-between;
 }
 
 .lots__card-list-item {
@@ -209,7 +209,6 @@ body {
 }
 
 .card__title {
-    display: block;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;

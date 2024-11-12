@@ -170,7 +170,6 @@ body {
     display: grid;
     grid-template-columns: 334px 334px 334px;
     grid-template-rows: 563px;
-    flex-grow: 1;
     row-gap: 30px;
 }
 

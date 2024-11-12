@@ -165,7 +165,6 @@ body {
 }
 
 .lots__card-list {
-    display: flex;
     display: grid;
     grid-template-columns: 334px 334px 334px;
     grid-template-rows: 563px;
@@ -269,14 +268,11 @@ body {
 }
 
 .about__text {
+    margin-top: 24px;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.01px;
-}
-
-.about__text-no {
-    letter-spacing: 0;
 }
 
 .footer {

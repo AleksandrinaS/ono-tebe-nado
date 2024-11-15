@@ -76,8 +76,6 @@ body {
     background-position-x: center; 
 } 
 
- 
-
 .cover__title { 
     position: relative; 
     z-index: 2; 
@@ -90,8 +88,6 @@ body {
     letter-spacing: 30px; 
     text-transform: uppercase; 
 } 
-
- 
 
 .aligned-text_center { 
     display: block; 
@@ -129,8 +125,6 @@ body {
     transform: translateY(-115px);
 } 
 
- 
-
 .cover__description-text { 
     font-weight: 400; 
     font-size: 22px; 
@@ -139,8 +133,6 @@ body {
     color: #fff; 
     word-spacing: 19px; 
 } 
-
- 
 
 .bet-button { 
     background-color: transparent; 
